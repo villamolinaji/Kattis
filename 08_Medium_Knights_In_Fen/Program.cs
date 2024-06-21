@@ -100,7 +100,13 @@ namespace Program
 					continue;
 				}
 
-				if (IsGameSolved(item.Board, tartgetBoard))
+				var wrongKnights = GetNumberOfWrongKnights(item.Board, tartgetBoard);
+				if (wrongKnights + item.Movements > 10)
+				{
+					continue;
+				}
+
+				if (wrongKnights == 0)
 				{
 					minMovements = Math.Min(minMovements, item.Movements);
 					continue;
@@ -142,21 +148,24 @@ namespace Program
 			}
 
 			return (-1, -1);
-		}
+		}		
 
-		private static bool IsGameSolved(char[,] board, char[,] tartgetBoard)
+		private static int GetNumberOfWrongKnights(char[,] board, char[,] tartgetBoard)
 		{
+			int wrongKnights = 0;
+
 			for (int r = 0; r < 5; r++)
 			{
 				for (int c = 0; c < 5; c++)
 				{
-					if (board[r, c] != tartgetBoard[r, c])
+					if (board[r, c] != tartgetBoard[r, c] &&
+						board[r, c] != EmptyCell)
 					{
-						return false;
+						wrongKnights++;
 					}
 				}
 			}
-			return true;
+			return wrongKnights;
 		}
 
 		private static IEnumerable<(int, int)> GetPossibleMovements(int emptyPositionRow, int emptyPositionCol, int[] dRow, int[] dCol)
