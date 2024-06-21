@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_Medium_Guessing_Game", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Medium_Jackpot", "06_Medium_Jackpot\06_Medium_Jackpot.csproj", "{C2CC6C65-0438-41BD-BCE3-0FA0591BF1B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Medium_Rational_Arithmetic", "07_Medium_Rational_Arithmetic\07_Medium_Rational_Arithmetic.csproj", "{8ECC20F3-1B78-4415-B595-44AEF607147E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_Medium_Rational_Arithmetic", "07_Medium_Rational_Arithmetic\07_Medium_Rational_Arithmetic.csproj", "{8ECC20F3-1B78-4415-B595-44AEF607147E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Medium_Knights_In_Fen", "08_Medium_Knights_In_Fen\08_Medium_Knights_In_Fen.csproj", "{30D614ED-6397-441F-AF36-2F650F3B8C14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{8ECC20F3-1B78-4415-B595-44AEF607147E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ECC20F3-1B78-4415-B595-44AEF607147E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ECC20F3-1B78-4415-B595-44AEF607147E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D614ED-6397-441F-AF36-2F650F3B8C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D614ED-6397-441F-AF36-2F650F3B8C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D614ED-6397-441F-AF36-2F650F3B8C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D614ED-6397-441F-AF36-2F650F3B8C14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
