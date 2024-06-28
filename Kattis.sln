@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_Medium_StringMatching", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_Watering_Grass", "13_Watering_Grass\13_Watering_Grass.csproj", "{CE00FFD7-EFCF-46DF-A55C-910A13019965}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Medium_Factstone_Benchmark", "14_Medium_Factstone_Benchmark\14_Medium_Factstone_Benchmark.csproj", "{1AAF4AC8-C545-4783-BA59-BC8DF37F13FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_Medium_Factstone_Benchmark", "14_Medium_Factstone_Benchmark\14_Medium_Factstone_Benchmark.csproj", "{1AAF4AC8-C545-4783-BA59-BC8DF37F13FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Medium_PersistentNumbers", "15_Medium_PersistentNumbers\15_Medium_PersistentNumbers.csproj", "{13ACEF7A-CC5D-4962-83ED-3DB989A974EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{1AAF4AC8-C545-4783-BA59-BC8DF37F13FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AAF4AC8-C545-4783-BA59-BC8DF37F13FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AAF4AC8-C545-4783-BA59-BC8DF37F13FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13ACEF7A-CC5D-4962-83ED-3DB989A974EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13ACEF7A-CC5D-4962-83ED-3DB989A974EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13ACEF7A-CC5D-4962-83ED-3DB989A974EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13ACEF7A-CC5D-4962-83ED-3DB989A974EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
