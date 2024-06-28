@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Medium_Teque", "11_Mediu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_Medium_StringMatching", "12_Medium_StringMatching\12_Medium_StringMatching.csproj", "{7589F172-ED4D-46CA-9194-27551F7EBCD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Watering_Grass", "13_Watering_Grass\13_Watering_Grass.csproj", "{CE00FFD7-EFCF-46DF-A55C-910A13019965}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_Watering_Grass", "13_Watering_Grass\13_Watering_Grass.csproj", "{CE00FFD7-EFCF-46DF-A55C-910A13019965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Medium_Factstone_Benchmark", "14_Medium_Factstone_Benchmark\14_Medium_Factstone_Benchmark.csproj", "{1AAF4AC8-C545-4783-BA59-BC8DF37F13FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{CE00FFD7-EFCF-46DF-A55C-910A13019965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE00FFD7-EFCF-46DF-A55C-910A13019965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE00FFD7-EFCF-46DF-A55C-910A13019965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AAF4AC8-C545-4783-BA59-BC8DF37F13FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AAF4AC8-C545-4783-BA59-BC8DF37F13FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AAF4AC8-C545-4783-BA59-BC8DF37F13FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AAF4AC8-C545-4783-BA59-BC8DF37F13FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
